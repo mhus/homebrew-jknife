@@ -2,7 +2,6 @@
 class Jregex < Formula
   desc "Java regex helper tool (match, find, replace)"
   homepage "https://github.com/mhus/mhus-jknife"
-  version "0.1.0"
 
   on_macos do
     if Hardware::CPU.intel?

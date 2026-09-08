@@ -2,7 +2,6 @@
 class Jbase64 < Formula
   desc "Base64 encode/decode helper tool"
   homepage "https://github.com/mhus/mhus-jknife"
-  version "0.1.0"
 
   on_macos do
     if Hardware::CPU.intel?
