@@ -8,16 +8,23 @@ small Java helper tools compiled as GraalVM native binaries. Documentation:
 
 ```shell
 brew tap mhus/jknife
-brew install jregex
-brew install jbase64
+brew install jregex jbase64 juuid jtime jperiod jjson jyaml jxpath jllm jsec
 ```
 
 ## Formulas
 
-| Formula    | Tool                                        |
-| ---------- | ------------------------------------------- |
-| `jregex`   | Java regex helper (match, find, replace)    |
-| `jbase64`  | Base64 encode/decode                        |
+| Formula    | Tool                                                            |
+| ---------- | --------------------------------------------------------------- |
+| `jregex`   | Java regex helper (match, find, replace)                        |
+| `jbase64`  | Base64 encode/decode                                             |
+| `juuid`    | UUID generator and parser (v4, v7)                              |
+| `jtime`    | Timestamp converter (epoch, epoch-millis, ISO-8601)            |
+| `jperiod`  | Period/duration converter and parser                            |
+| `jjson`    | JSON helper (validate, pretty, compact, get)                    |
+| `jyaml`    | YAML helper (validate, tojson)                                  |
+| `jxpath`   | XML xpath helper (select, exists)                              |
+| `jllm`     | LLM tool family (ask, stream, request, models; openai, ollama) |
+| `jsec`     | Security tool family (hash, keys, encrypt/decrypt, sign/verify) |
 
 ## Maintenance
 
